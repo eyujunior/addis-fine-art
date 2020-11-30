@@ -1,0 +1,235 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-size: 10px;
+}
+body{
+    font-family: 'montserrat', sans-serif;
+   
+}
+a
+{
+    color: #fff;
+    text-decoration: none;
+}
+a#logo
+{
+    font-size: 2.5rem;
+}
+.navigation
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5rem;
+    color: #000;
+}
+.navigation.contact a 
+{
+    color: rgb(15, 15, 15) !important;
+}
+.nav-list
+{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item
+{
+    text-transform: uppercase;
+    list-style: none;
+    margin-left: 5rem;
+    padding-bottom:2px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid transparent;
+    transition: border .3s ease;
+}
+.nav-item:hover
+{
+    border-bottom: 2px solid #fd6e0e;
+}
+.header
+{
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,.6), rgba(0,0,0,.6)) ,url('./images/deanna-j-3GZlhROZIQg-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+.hero
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    text-align: center;
+}
+.heading-primary
+{
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+.sub-title
+{
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    margin-bottom: 4rem;
+}
+.btn
+{
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    border: 0;
+    border-radius: 4px;
+}
+.btn-cta
+{
+    letter-spacing: .5px;
+    background-color: #fd6e0e;
+    color: #ffffff;
+    transition: all .3s ease-in-out;
+}
+.btn-cta:hover
+{
+    background-color: #e06514;
+}
+/*///////////////////   NEWS SECTION /////////////////////
+////////////////////////////////////////////////////////*/
+.news
+{
+    padding: 10rem 5rem;
+    color: rgb(46, 46, 46);
+}
+.news-container
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 4rem;
+}
+.news-title
+{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    line-height: 1.4;
+    font-weight: normal;
+    width: 78%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.news-date
+{
+    text-transform: uppercase;
+    opacity: .8;
+}
+#title{
+    font-weight: normal;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    color: rgb(34, 34, 34);
+}
+
+
+/*////////////////////  CONTACT PAGE  ////////////////////
+/////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////*/
+main
+{
+    padding: 5rem 10rem;
+}
+.contact-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+}
+.method-list
+{
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    opacity: .7;
+}
+.method-list a 
+{
+    color: #000;
+    text-decoration: underline;
+}
+.addis-methods
+{
+    margin-bottom: 4rem;
+}
+
+/*////////////////////  Exhibition stuff  ////////////////////
+/////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////*/
+.exhibition
+{
+    padding: 5rem;
+    text-transform: uppercase;
+    color: #2c2c2c;
+}
+.exhibition-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.exhibition-title
+{
+    font-size: 4rem;
+    font-weight: normal;
+    
+    margin-bottom: 2rem;
+}
+.exhibition-subtitle
+{
+    margin-bottom: 1rem;
+}
+.exhibition-date
+{
+    margin-bottom: 0.5rem;
+}
+.exhibition-detail
+{
+width: 65%;
+}
+.exhibition p 
+{
+    text-transform: none;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    opacity: .9;
+    margin-top: 2rem;
+}
+.exhibition-lists
+{
+    padding: 5rem;
+}
+.exb-grid
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+.exh-title
+{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.exb-grid .place
+{
+    opacity: .8;
+}
+.selected-exhibition
+{
+    padding: 0 5rem;
+}
